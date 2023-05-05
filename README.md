@@ -1,38 +1,50 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## Getting started
 
-## Getting Started
+To get the Next app running locally:
 
-First, run the development server:
+- Clone this repo with `git clone https://github.com/vigarp/simple-post-imp`
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+- `cd simple-post-imp`
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- `yarn` to install all required dependencies
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+``
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+## Architechture
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+This project is using :
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+1. NextJS as the framework
+2. Chakra-UI
+3. React Hook Form
+4. Axios
+5. React Query
 
-## Learn More
+## Features
 
-To learn more about Next.js, take a look at the following resources:
+The features in this project include:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- User can add post.
+- User can view list or detail post.
+- User can edit the post.
+- User can delete the post.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## Screenshoot
 
-## Deploy on Vercel
+**List Post**
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+![Login-Zwallet](https://res.cloudinary.com/vigarp/image/upload/v1683246298/imp-assets/simple-post-list_hsjgbg.png)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+**Add Post**
+
+![TransferPage-Zwallet](https://res.cloudinary.com/vigarp/image/upload/v1683246298/imp-assets/simple-post-add_eazklk.png)
+
+**Detail Post**
+
+![TransferStatus-Zwallet](https://res.cloudinary.com/vigarp/image/upload/v1683246298/imp-assets/simple-post-detail_fccfoj.png)
+**Edit Post**
+
+![TransferStatus-Zwallet](https://res.cloudinary.com/vigarp/image/upload/v1683246298/imp-assets/simple-post-edit_svjmcm.png)
+**Delete Post**
+
+![TransferStatus-Zwallet](https://res.cloudinary.com/vigarp/image/upload/v1683246298/imp-assets/simple-post-delete_lgkyna.png)
